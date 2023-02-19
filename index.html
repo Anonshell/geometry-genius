@@ -50,7 +50,7 @@
                 </label>
 
                 <button id="tri-cal"
-                    class="text-center text-white bg-sky-600 rounded-lg mt-5 px-10 py-3 mx-6 font-semibold">Calculate</button>
+                           class="text-center text-white bg-sky-600 rounded-lg mt-5 px-10 py-3 mx-6 font-semibold">Calculate</button>
 
             </div>
 
@@ -61,17 +61,17 @@
 
                 <img class="flex justify-center p-5" src="./images/rectangle.png" alt="">
                 <h1 class="text-center my-3">Rectangle</h1>
-                <h2 class="text-center my-2">Area (A) = w x h</h2>
+                <h2 class="text-center my-2">Area (A) = w x l</h2>
 
 
 
                 <label for="" class="flex gap-5">
 
-                    <input type="number" name="b" id="rec-weight" placeholder="w" class="w-11 bg-slate-200">
+                    <input type="number" name="w" id="rec-weight" placeholder="w" class="w-11 bg-slate-200">
 
                     <p>cm</p>
 
-                    <input type="number" name="h" id="tri-length" placeholder="l" class="w-11 bg-slate-200">
+                    <input type="number" name="l" id="rec-length" placeholder="l" class="w-11 bg-slate-200">
                     <p>cm</p>
                 </label>
 
@@ -105,6 +105,8 @@
 
 
                 <h2 class="text-center" id="area-calculation">Area Calculation</h2>
+
+                   <h1 id="answer" class="flex justify-center mt-10">answer</h1>
                 <hr>
 
             </div>
@@ -221,6 +223,8 @@
 
 
     <script src="blog.js"></script>
+
+    <script src="calculation.js"></script>
 
 
 
